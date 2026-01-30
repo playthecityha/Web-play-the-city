@@ -1,0 +1,17 @@
+title: Play the City
+description: Proyectos, visor y contacto
+theme: minima
+
+# IMPORTANTE para tu repo (Project Site):
+url: "https://playthecityha.github.io"
+baseurl: "/Web-play-the-city"
+
+header_pages:
+  - projects.md
+  - visor.md
+  - contact.md
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
